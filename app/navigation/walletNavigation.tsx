@@ -9,7 +9,7 @@ import {
   VerifyCode,
   OnAccountSuccess,
   OnSuccessScreen,
-  OnPasswordSuccess,,
+  OnPasswordSuccess,
 } from "../screens";
 
 const navigationScreenOptions = { headerShown: false };

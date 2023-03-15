@@ -8,7 +8,7 @@ const FormSubmitButton = ({
   style,
   textStyles,
 }: any) => {
-  const backgroundColor = submitting ? "#182005" : "#2B3513";
+  const backgroundColor = submitting ? "#0047AB" : "#1F51ff";
 
   return (
     <TouchableOpacity

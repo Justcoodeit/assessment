@@ -3,10 +3,12 @@ import React from "react";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { COLORS } from "../constants/color";
 import DrawerContent from "./components/DrawerContent";
-import {
 
+import {
+  HomeScreen
 } from "../screens";
 import Profile from "../screens/Profile/Profile";
+import BottomNav from "./BottomNav";
 
 const Drawer = createDrawerNavigator();
 
@@ -27,18 +29,11 @@ const DrawerNav = () => {
         }}
         drawerContent={(props: any) => <DrawerContent {...props} />}
       >
-        {/* <Drawer.Screen name="Homescreen" component={BottomNav} /> */}
-        {/* <Drawer.Screen name="News" component={News} />
-        <Drawer.Screen name="Events" component={Events} />
-        <Drawer.Screen name="Resources" component={Resources} />
-        <Drawer.Screen name="Support" component={Support} /> */}
 
-        {/* <Drawer.Screen name="Gallery" component={Gallery} />
-        <Drawer.Screen name="Profile" component={Profile} />
-        <Drawer.Screen name="Services" component={Services} />
-        <Drawer.Screen name="Meetings" component={Meetings} />
-        <Drawer.Screen name="Publications" component={Publications} />
-        <Drawer.Screen name="Notification" component={Notification} /> */}
+        <Drawer.Screen name="News" component={HomeScreen} />
+        <Drawer.Screen name="Profile" component={Profile} /> 
+
+
       </Drawer.Navigator>
     </>
   );

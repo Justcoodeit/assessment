@@ -6,7 +6,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { HomeScreen } from "../screens";
 import Chat from "../screens/Home/Chat/Chat";
 import { Account } from "../screens/Home";
-import Memebers from "../screens/Home/Members/Memebers";
+import Memebers from "../screens/Home/Phonebook/Memebers";
 
 const Tab = createBottomTabNavigator();
 
